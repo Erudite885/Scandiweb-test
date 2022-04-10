@@ -1,4 +1,4 @@
-<?php
+<?php 
 	include 'db.php';
 
 	$SKU_BD = isset($_POST['sku']) ? $_POST['sku'] : null;
@@ -8,7 +8,7 @@
 	$Size_BD = isset($_POST['size']) ? $_POST['size'] : null;
 	$Weight_BD = isset($_POST['weight']) ? $_POST['weight'] : null;
 	$Height_BD = isset($_POST['height']) ? $_POST['height'] : null;
-	$width_BD = isset($_POST['width']) ? $_POST['width'] : null;
+	$Width_BD = isset($_POST['width']) ? $_POST['width'] : null;
 	$Length_BD = isset($_POST['length']) ? $_POST['length'] : null;
 
 
@@ -18,7 +18,7 @@
 				if ($Size_BD <> null) {
 
 					$query = "INSERT INTO dvd(SKU, Name, Price, Size) VALUES('$SKU_BD', '$Name_BD', $Price_BD, $Size_BD)";
-					mysqli_query($conection, $query);
+					mysqli_query($conection, $query);						
 				}
 				break;
 			case 'Book':
@@ -36,7 +36,7 @@
 				}
 				break;
 			default:
-				// 
+			// 
 				break;
 		}
 	}

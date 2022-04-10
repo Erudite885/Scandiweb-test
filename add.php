@@ -44,7 +44,7 @@ include 'header.php';?>
     <p>Select the type of the product</p>
 
     <select id="productType" name="productType" onchange="run()" oninvalid="this.setCustomValidity('Pick a Product Type')" oninput="this.setCustomValidity('')" required>
-        <option value="" selected disabled>Select the type of the product</option>
+        <option value="" selected disabled>Type Switcher</option>
         <option value='DVD' id="#DVD"> DVD </option>
         <option value='Book' id="#Book"> Book </option>
         <option value='Furniture' id="#Furniture"> Furniture </option>
