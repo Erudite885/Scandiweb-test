@@ -4,7 +4,7 @@ Junior developer test for Scandiweb
   
 About Me
 
-Name: Uche Bianca
+Name: Uche Bianca;
 Email: uchebianca@gmail.com
 
 
